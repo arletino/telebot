@@ -5,7 +5,7 @@ import requests
 from urllib3.exceptions import InsecureRequestWarning
 
 API_URL = 'https://7012.deeppavlov.ai/model'
-API_TOKEN='5860976679:AAG7VdNtdfuSCvLX8IuXj_kebU0RmXucl30'
+API_TOKEN=''
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(content_types=['text'])
